@@ -124,8 +124,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 originaldays[j] = days.get(j);
             }
         } catch (Exception e) {
-            e.printStackTrace();  
-        }
+            e.printStackTrace();
+        }  
         return originaldays;
     }
 
